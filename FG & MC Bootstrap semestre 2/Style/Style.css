@@ -1,0 +1,149 @@
+.Header{
+    background: #212529;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.dégradé{
+    background: linear-gradient(#212529,white);
+}
+.banner{
+    background: linear-gradient(white,#212529);
+}
+#banner{
+    text-align:center;
+    margin:auto;
+    width: 100%;
+    color: black;
+    font-weight: bolder;
+    font-size: xxx-large;
+}
+
+.Logo {
+    width: 80%;
+    height: auto;
+}
+.Logo2{
+    width: 100%;
+    height: auto;
+}
+#pied{
+    width: 100%;
+    color: #8a8a8a;
+    background : #212529;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.ligne{
+    width: 100%;
+    height: 1px;
+}
+
+.p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.img{
+    height: 50%;
+}
+.texte{
+    font-size: xx-large;
+    text-align: left;
+}
+.soustexte{
+    font-size: xx-small;
+    text-align: center;
+}
+.desc{
+    font-size: large;
+    font-weight: bold;
+}
+.textei{
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: left;
+    font-style: italic;
+    color: #8a8a8a;
+}
+.desci{
+    font-size: large;
+    text-align: left;
+    font-style: italic;
+    color: #8a8a8a;
+}
+
+.carte{
+    background-color: black;
+    width: 83%;
+    height: auto;
+}
+.main{
+    background-image: url("Images/WP-BG.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.albumimg{
+    width: 75%;
+    border: solid 3mm;
+}
+.albumtd{
+    text-align: right;
+}
+
+.histt{
+    font-weight: bolder;
+    font-family: "Book Antiqua";
+}
+
+.cm{
+    background-color: white;
+    opacity: 50%;
+    width: 100%;
+}
+
+.gradient {
+    position: relative;
+    background: radial-gradient(gray, #7F7F7F , #212529);
+}
+
+
+.gradient::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(#7F7F7F, #2c3034 ,#212529);
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+}
+
+.gradient:hover::before {
+    opacity: 50%;
+}
+
+.dégradé2{
+    position: relative;
+    background: radial-gradient(gray, #7F7F7F , #212529);
+}
+
+.categ{
+    font-size: xx-large;
+    text-align: left;
+    font-weight: bolder;
+    color: black;
+    text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
+}
+.catext{
+    font-size: large;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+}
+table#Footer{
+    width: 100%;
+}
